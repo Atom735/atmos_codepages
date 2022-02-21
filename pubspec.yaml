@@ -2,14 +2,14 @@ name: atmos_codepages
 description: A starting point for Dart libraries or applications.
 version: 0.0.1+1
 
+publish_to: "none"
+
 environment:
   sdk: ">=2.16.1 <3.0.0"
 
-# dependencies:
-#   path: ^1.8.0
+dependencies:
+  meta: ^1.7.0
 
 dev_dependencies:
   atmos_lints:
     git: git@github.com:Atom735/atmos_lints.git
-dependencies:
-  meta: ^1.7.0
